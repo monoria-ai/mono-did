@@ -1,0 +1,30 @@
+{
+  "name": "@mono/adapters",
+  "version": "0.1.0",
+  "description": "Stable adapter interfaces for identity, handshake and protocol integration",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean"
+  },
+  "dependencies": {
+    "@mono/did-core-types": "workspace:^",
+    "@mono/handshake": "workspace:^",
+    "@mono/identity": "workspace:^",
+    "@mono/protocol": "workspace:^"
+  }
+}

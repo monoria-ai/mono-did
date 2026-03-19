@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node", "vitest/globals"],
+    "baseUrl": ".",
+    "paths": {
+      "@mono/did": ["packages/mono-did/src/index.ts"],
+      "@mono/did-core-types": ["packages/did-core-types/src/index.ts"],
+      "@mono/adapters": ["packages/mono-adapters/src/index.ts"],
+      "@mono/identity": ["packages/mono-identity/src/index.ts"],
+      "@mono/handshake": ["packages/mono-handshake/src/index.ts"],
+      "@mono/protocol": ["packages/mono-protocol/src/index.ts"]
+    }
+  },
+  "include": ["packages", "tests", "vitest.config.ts"]
+}
