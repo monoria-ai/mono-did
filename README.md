@@ -1,5 +1,9 @@
 # mono-did
 
+[![CI](https://github.com/monoria-ai/mono-did/actions/workflows/ci.yml/badge.svg)](https://github.com/monoria-ai/mono-did/actions/workflows/ci.yml)
+[![Latest Release](https://img.shields.io/github/v/release/monoria-ai/mono-did?label=release)](https://github.com/monoria-ai/mono-did/releases/latest)
+[![npm](https://img.shields.io/npm/v/%40mono%2Fdid?label=%40mono%2Fdid)](https://www.npmjs.com/package/@mono/did)
+
 `mono-did` is a modular DID and handshake foundation extracted from Monoclaw.
 
 It provides:
@@ -12,6 +16,13 @@ It provides:
 Default documentation language is English.
 
 - Chinese version: [README.zh-CN.md](./README.zh-CN.md)
+
+## Project Links
+
+- Latest release: <https://github.com/monoria-ai/mono-did/releases/latest>
+- Releases: <https://github.com/monoria-ai/mono-did/releases>
+- Discussions: <https://github.com/monoria-ai/mono-did/discussions>
+- Issues: <https://github.com/monoria-ai/mono-did/issues>
 
 ## Architecture
 
@@ -318,6 +329,7 @@ pnpm release
 - Code of Conduct: [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 - Security policy: [SECURITY.md](./SECURITY.md)
 - License: [LICENSE](./LICENSE)
+- GitHub growth checklist: [docs/GITHUB-GROWTH-CHECKLIST.md](./docs/GITHUB-GROWTH-CHECKLIST.md)
 
 ## License
 

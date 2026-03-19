@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and ideas (GitHub Discussions)
+    url: https://github.com/monoria-ai/mono-did/discussions
+    about: Ask usage questions, architecture discussions, and idea proposals.
+  - name: Security issue report
+    url: https://github.com/monoria-ai/mono-did/security/advisories/new
+    about: Please report vulnerabilities through private security advisories.
