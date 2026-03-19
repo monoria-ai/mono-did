@@ -17,11 +17,11 @@ Default documentation language is English.
 
 ```mermaid
 graph TD
-  A[@mono/did aggregate package] --> B[@mono/did-core-types]
-  A --> C[@mono/identity]
-  A --> D[@mono/handshake]
-  A --> E[@mono/protocol]
-  A --> F[@mono/adapters]
+  A[mono-did aggregate package] --> B[mono/did-core-types]
+  A --> C[mono/identity]
+  A --> D[mono/handshake]
+  A --> E[mono/protocol]
+  A --> F[mono/adapters]
 
   C --> G[DID:peer identity]
   C --> H[Key event log]
